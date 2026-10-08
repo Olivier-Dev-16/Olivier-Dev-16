@@ -17,11 +17,19 @@
 <br>
 
 <!-- Mise en page : pilier à gauche | contenu | pilier à droite -->
-<table>![Uploading pilier.svg]()
+<div style="display: flex; align-items: flex-start; gap: 20px; width: 100%;">
+  <!-- Colonne de gauche : l'image -->
+  <img src="pilier.svg" width="110" style="flex-shrink: 0;" alt="Pilier" />
 
-<tr>
-<td width="110" valign="top"><img src="assets/pilier.svg" width="110" height="1700" alt="" /></td>
-<td valign="top">
+  <!-- Colonne de droite : tout votre texte regroupé ici -->
+  <div style="flex-grow: 1;">
+    <h2>Mon titre de section</h2>
+    <p>Votre texte principal vient ici. Grâce à Flexbox, ce texte va s'aligner parfaitement à droite de votre image, tout en restant propre et lisible.</p>
+    
+    <h2>À propos de moi</h2>
+    <p>Je suis étudiant en première année de <strong>BTS SIO</strong>...</p>
+  </div>
+</div>
 
 ## À propos de moi
 
