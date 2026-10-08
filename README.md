@@ -17,7 +17,7 @@
 <br>
 
 <!-- Mise en page : pilier à gauche | contenu | pilier à droite -->
-<table>![Uploading pilier (1).svg…]()
+<table>![Uploading pilier.svg]()
 
 <tr>
 <td width="110" valign="top"><img src="assets/pilier.svg" width="110" height="1700" alt="" /></td>
